@@ -12,6 +12,9 @@ from requests.exceptions import ReadTimeout
 import os
 import itertools
 import pandas as pd
+from math import sqrt, log, exp
+from scipy.stats import norm
+
 
 
 # Data Mining of NIFTY options from NSE Website and analysis in Pandas Library
